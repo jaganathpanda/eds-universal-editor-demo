@@ -133,6 +133,13 @@
         "value": "",
         "label": "Text",
         "valueType": "string"
+      },
+      {
+        "component": "text",
+        "valueType": "number",
+        "name": "numberofcard",
+        "value": "",
+        "label": "Number of Card"
       }
     ]
   },
