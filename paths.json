@@ -1,10 +1,10 @@
 {
   "mappings": [
-    "/content/wiproEds/:/",
-    "/content/wiproEds/configuration:/.helix/config.json",
-    "/content/wiproEds/metadata:/metadata.json"
+    "/content/unidemo/:/",
+    "/content/unidemo/configuration:/.helix/config.json",
+    "/content/unidemo/metadata:/metadata.json"
   ],
   "includes": [
-    "/content/wiproEds/"
+    "/content/unidemo/"
   ]
 }
