@@ -195,8 +195,9 @@
     "id": "image-carousel",
     "fields": [
       {
-        "name": "classes",
-        "type": "multiselect",
+        "name": "multiselect",
+        "component":"multiselect",
+        "valueType": "string[]",
         "label": "Options",
         "options": [
           {
