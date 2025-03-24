@@ -211,9 +211,25 @@
       {
         "component": "text",
         "valueType": "string",
-        "name": "imageAlt",
-        "label": "Alt",
+        "name": "imageUrl",
+        "label": "URL",
         "value": ""
+      }
+    ]
+  },
+  {
+    "id": "image-carousel",
+    "fields": [
+      {
+        "name": "classes",
+        "type": "multiselect",
+        "label": "Options",
+        "options": [
+          {
+            "name": "Auto Scroll",
+            "value": "auto-scroll"
+          }
+        ]
       }
     ]
   }

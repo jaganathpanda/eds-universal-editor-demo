@@ -1,6 +1,6 @@
 export default function decorate(block) {
     debugger
-    const sliderWrapper = block.closest('.myslider-wrapper');
+    const sliderWrapper = block.closest('.my-slider-wrapper');
     if (!sliderWrapper) return;
 
     const slides = Array.from(block.children);
@@ -8,10 +8,10 @@ export default function decorate(block) {
 
     // Wrap slides inside a container
     const sliderContainer = document.createElement('div');
-    sliderContainer.classList.add('myslider-container-new');
+    sliderContainer.classList.add('my-slider-container-new');
 
     slides.forEach((slide, index) => {
-        slide.classList.add('myslider-slide');
+        slide.classList.add('my-slider-slide');
         slide.dataset.index = index;
 
         // Extract image and link
