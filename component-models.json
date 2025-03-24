@@ -214,8 +214,8 @@
       {
         "component": "reference",
         "valueType": "string[]",
-        "name": "image",
-        "label": "Image",
+        "name": "imageSLider",
+        "label": "ImageSlider",
         "multi": true
       },
       {
