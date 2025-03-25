@@ -196,8 +196,7 @@
     "fields": [
       {
         "name": "multiselect",
-        "component":"multiselect",
-        "valueType": "string[]",
+        "type":"multiselect",
         "label": "Options",
         "options": [
           {
