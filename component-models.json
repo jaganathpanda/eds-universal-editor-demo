@@ -225,5 +225,24 @@
         "value": ""
       }
     ]
+  },
+  {
+    "id": "carouselCard",
+    "fields": [
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "carouselCardImage",
+        "label": "Carousel Card Image",
+        "multi": false
+      },
+      {
+        "component": "richtext",
+        "name": "carouselCardText",
+        "value": "",
+        "label": "Text",
+        "valueType": "string"
+      }
+    ]
   }
 ]
