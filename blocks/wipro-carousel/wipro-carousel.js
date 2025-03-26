@@ -1,4 +1,5 @@
 export default function decorate(block) {
+    if (window.location.href.includes("universal-editor")) {
     // Create a wrapper div for the carousel
     const carouselWrapper = document.createElement('div');
     carouselWrapper.classList.add('carousel-container');
@@ -74,4 +75,4 @@ export default function decorate(block) {
     prevBtn.addEventListener('click', () => showSlide(currentSlide - 1));
     nextBtn.addEventListener('click', () => showSlide(currentSlide + 1));
   }
-  
+}
