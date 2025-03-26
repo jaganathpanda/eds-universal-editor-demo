@@ -1,6 +1,6 @@
 export default function decorate(block) {
     debugger;
-    if (!window.location.href.includes("universal-editor")) {
+    if (!window.location.href.includes("author-")) {
     // Create a wrapper div for the carousel
     const carouselWrapper = document.createElement('div');
     carouselWrapper.classList.add('carousel-container');
