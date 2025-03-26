@@ -18,12 +18,11 @@
       "fragment",
       "myslider",
       "image-carousel",
-      "wiproCarousel",
-      "carouselCard"
+      "wipro-carousel"
     ]
   },
   {
-    "id": "wiproCarousel",
+    "id": "wipro-carousel",
     "components": [
       "carouselCard"
     ]

@@ -207,6 +207,24 @@
       }
     ]
   },
+
+  {
+    "id": "wipro-carousel",
+    "fields": [
+      {
+        "name": "multiselect",
+        "type":"multiselect",
+        "label": "Options",
+        "options": [
+          {
+            "name": "Auto Scroll",
+            "value": "auto-scroll"
+          }
+        ]
+      }
+    ]
+  },
+
   {
     "id": "myslider",
     "fields": [
